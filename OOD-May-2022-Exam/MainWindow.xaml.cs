@@ -31,11 +31,13 @@ namespace OOD_May_2022_Exam
         //Event for when Add button is clicked
         private void AddBTN(object sender, RoutedEventArgs e)
         {
+            //Create a local instance of the AddWindow window
             AddWindow addWindow = new AddWindow();
+            //Show this instance of the window
             addWindow.Show();
         }
 
-        //Event for when selection of property in list box changes
+        //Update the description box based on the selected index in listbox
         private void PropertiesSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int selection = PropertiesLB.SelectedIndex + 1;
@@ -44,9 +46,7 @@ namespace OOD_May_2022_Exam
                     where x.ID == selection
                     select new
                     {
-                        ID = x.ID,
                         Description = x.Description,
-                        Price = x.Price,
                     };
 
             PropertyDescriptionTBLK.Text = q.ToList()[0].Description;
@@ -60,6 +60,7 @@ namespace OOD_May_2022_Exam
                     select x;
 
             properties = q.ToList();
+
             PropertiesLB.ItemsSource = properties;
         }
     }
