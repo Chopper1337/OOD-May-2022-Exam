@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\MainWindow.g.cs
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\App.g.cs
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam_MarkupCompile.cache
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam_MarkupCompile.lref
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\bin\Debug\OOD-May-2022-Exam.exe.config
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\bin\Debug\OOD-May-2022-Exam.exe
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\bin\Debug\OOD-May-2022-Exam.pdb
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\MainWindow.baml
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.g.resources
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD_May_2022_Exam.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.exe
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.pdb

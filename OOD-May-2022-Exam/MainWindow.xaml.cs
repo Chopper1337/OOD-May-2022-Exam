@@ -24,5 +24,10 @@ namespace OOD_May_2022_Exam
         {
             InitializeComponent();
         }
+
+        private void AddBTN(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

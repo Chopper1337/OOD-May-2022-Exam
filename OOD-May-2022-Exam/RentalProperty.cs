@@ -6,13 +6,19 @@ using System.Threading.Tasks;
 
 namespace OOD_May_2022_Exam
 {
-    internal class RentalProperty
+    public class RentalProperty
     {
         public int ID{ get; set; }
         public RentalType RentalType { get; set; }
         public string Location { get; set; }
         public decimal Price { get; set; }
         public string Description { get; set; }
+
+        public void IncreaseRent(int percentage)
+        {
+            decimal Increase = Price * percentage;
+            Price += Increase;
+        }
     }
 
     public enum RentalType
