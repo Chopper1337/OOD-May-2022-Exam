@@ -31,7 +31,8 @@ namespace OOD_May_2022_Exam
         //Event for when Add button is clicked
         private void AddBTN(object sender, RoutedEventArgs e)
         {
-
+            AddWindow addWindow = new AddWindow();
+            addWindow.Show();
         }
 
         //Event for when selection of property in list box changes
