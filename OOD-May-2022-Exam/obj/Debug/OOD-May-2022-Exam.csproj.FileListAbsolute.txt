@@ -14,3 +14,8 @@ C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD
 C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.exe
 C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.pdb
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\OOD-May-2022-Exam\obj\Debug\OOD-May-2022-Exam.csproj.CopyComplete

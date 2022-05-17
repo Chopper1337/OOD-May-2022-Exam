@@ -33,6 +33,6 @@ namespace OOD_May_2022_Exam
     {
         public RentalPropertyData() : base("MyRentalPropertyData") { }
 
-        public DbSet<RentalProperty> Properties
+        public DbSet<RentalProperty> Properties {get; set;}
     }
 }

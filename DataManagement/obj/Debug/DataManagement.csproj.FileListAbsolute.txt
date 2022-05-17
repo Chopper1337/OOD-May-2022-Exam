@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\DataManagement.exe.config
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\DataManagement.exe
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\DataManagement.pdb
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\OOD-May-2022-Exam.exe
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\OOD-May-2022-Exam.pdb
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\OOD-May-2022-Exam.exe.config
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\obj\Debug\DataManagement.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\obj\Debug\DataManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\obj\Debug\DataManagement.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\obj\Debug\DataManagement.csproj.CopyComplete
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\obj\Debug\DataManagement.exe
+C:\Users\User\Documents\GitHub\OOD-May-2022-Exam\DataManagement\obj\Debug\DataManagement.pdb
