@@ -17,13 +17,13 @@ namespace TestProject
                 RentalType = RentalType.House,
                 Price = 1000m
             };
-            decimal expectedPrice = 1500m;
+            decimal expectedPrice = 1500;
 
             //Act
             p1.IncreaseRent(50);
 
             //Assert
-            Assert.AreEqual(expectedPrice, p1.Price);
+            Assert.AreEqual(p1.Price, expectedPrice);
         }
     }
 }

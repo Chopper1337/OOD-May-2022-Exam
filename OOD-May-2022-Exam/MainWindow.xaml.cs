@@ -29,5 +29,10 @@ namespace OOD_May_2022_Exam
         {
 
         }
+
+        private void PropertiesSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
 
         <Label Content="Property Listing" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"></Label>
-        <ListBox Name="PropertiesLB" Grid.Row="1" Grid.Column="0" Margin="20"></ListBox>
+        <ListBox Name="PropertiesLB" Grid.Row="1" Grid.Column="0" Margin="20" SelectionChanged="PropertiesSelectionChanged" ></ListBox>
         <TextBlock Name="PropertyDescriptionTBLK" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Height="300"></TextBlock>
         <Button Name="AddPropertyBTN" Click="AddBTN" Content="Add" Grid.Row="1" Grid.Column="2" Width="90" Height="20" VerticalAlignment="Top" Margin="20"></Button>
     </Grid>

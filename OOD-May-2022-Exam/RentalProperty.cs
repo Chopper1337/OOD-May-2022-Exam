@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,5 +27,12 @@ namespace OOD_May_2022_Exam
         House,
         Flat,
         Share
+    }
+
+    public class RentalPropertyData : DbContext
+    {
+        public RentalPropertyData() : base("MyRentalPropertyData") { }
+
+        public DbSet<RentalProperty> Properties
     }
 }
