@@ -53,11 +53,6 @@ namespace OOD_May_2022_Exam
 
         private void WindowLoaded(object sender, RoutedEventArgs e)
         {
-            OccupyListBox();
-        }
-
-        public void OccupyListBox()
-        {
             RentalPropertyData db = new RentalPropertyData();
             var q = from x in db.Properties
                     orderby x.ID
@@ -66,6 +61,5 @@ namespace OOD_May_2022_Exam
             properties = q.ToList();
             PropertiesLB.ItemsSource = properties;
         }
-
     }
 }

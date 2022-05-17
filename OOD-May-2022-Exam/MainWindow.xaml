@@ -6,6 +6,16 @@
         xmlns:local="clr-namespace:OOD_May_2022_Exam"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <DataTemplate x:Key="dataTemplateProps">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{Binding Path=CoverImagePath}" Width="100"/>
+                <TextBlock Text="{Binding Path=Location}" FontSize="16" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Text="{Binding Path=Price}" FontSize="14" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+    </DataTemplate>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"></RowDefinition>
@@ -18,7 +28,7 @@
         </Grid.ColumnDefinitions>
 
         <Label Content="Property Listing" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
-        <ListBox Name="PropertiesLB" Grid.Row="1" Margin="20,20,20,20" SelectionChanged="PropertiesSelectionChanged" />
+        <ListBox Name="PropertiesLB" Grid.Row="1" Margin="20,20,20,20" SelectionChanged="PropertiesSelectionChanged" ItemTemplate="{StaticResource dataTemplateProps}" />
         <TextBlock Name="PropertyDescriptionTBLK" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Height="300" TextWrapping="Wrap"></TextBlock>
         <Button Name="AddPropertyBTN" Click="AddBTN" Content="Add" Grid.Row="1" Grid.Column="2" Width="90" Height="20" VerticalAlignment="Top" Margin="35,20,35,0"></Button>
     </Grid>
