@@ -15,16 +15,16 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
     <Label Content="Type of Rental:" HorizontalAlignment="Left" Margin="80,35,20,20"  VerticalAlignment="Top" Grid.Row="0"></Label>
-        <ComboBox Grid.Row="0" Margin="180,35,20,20" Width="150" Height="20" HorizontalAlignment="Left"></ComboBox>
+        <ComboBox Grid.Row="0" ItemsSource="{Binding Path=RentalType}" Margin="180,35,20,20" Width="150" Name="RentalTypeCBX" Height="20" HorizontalAlignment="Left"></ComboBox>
 
     <Label Content="Location:" HorizontalAlignment="Left" Margin="80,35,20,20"  VerticalAlignment="Top" Grid.Row="1"></Label>
-        <TextBox Grid.Row="1" Margin="180,35,20,20" Width="150" Height="20" HorizontalAlignment="Left"></TextBox>
+        <TextBox Grid.Row="1" Margin="180,35,20,20" Width="150" Height="20" Name="LocationTBLK" HorizontalAlignment="Left"></TextBox>
 
     <Label Content="Price:" HorizontalAlignment="Left" Margin="80,35,20,20"  VerticalAlignment="Top" Grid.Row="2"></Label>
-        <TextBox Grid.Row="2" Margin="180,35,20,20" Width="150" Height="20" HorizontalAlignment="Left"></TextBox>
+        <TextBox Grid.Row="2" Margin="180,35,20,20" Width="150" Height="20" Name="PriceTBLK" HorizontalAlignment="Left"></TextBox>
 
     <Label Content="Description:" HorizontalAlignment="Left" Margin="80,35,20,20"  VerticalAlignment="Top" Grid.Row="3"></Label>
-        <TextBox Grid.Row="3" Margin="180,20,20,20" Width="150" Height="80" Grid.RowSpan="2" HorizontalAlignment="Left"></TextBox>
+        <TextBox Grid.Row="3" Margin="180,20,20,20" Width="150" Height="80" Grid.RowSpan="2" Name="DescriptionTBLK" HorizontalAlignment="Left"></TextBox>
         <Button Content="Save" Click="SaveBTN" Height="20" Margin="5" Width="50" Grid.Row="4" VerticalAlignment="Bottom" HorizontalAlignment="Right"></Button>
 
     </Grid>

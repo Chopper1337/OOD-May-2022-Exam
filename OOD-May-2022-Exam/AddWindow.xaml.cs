@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Data.Entity;
 
 namespace OOD_May_2022_Exam
 {
@@ -26,7 +27,37 @@ namespace OOD_May_2022_Exam
 
         private void SaveBTN(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            if (ValidateData())
+            {
+                RentalPropertyData db = new RentalPropertyData();
+                RentalProperty newProperty = new RentalProperty();
+                newProperty.RentalType = (RentalType)(RentalTypeCBX.SelectedValue);
+                newProperty.Location = LocationTBLK.Text;
+                newProperty.Price = int.Parse(PriceTBLK.Text);
+                newProperty.Description = DescriptionTBLK.Text;
+                db.Properties.Add(newProperty);
+                db.SaveChanges();
+                MessageBox.Show("Item added.");
+                this.Close();
+            }
+        }
+
+        //Checks if all the expected inputs fields contain what they're supposed to
+        bool ValidateData()
+        {
+            if(RentalTypeCBX.SelectedItem is null)
+                return false;
+
+            if(LocationTBLK.Text.Length < 1)
+                return false;
+
+            if(PriceTBLK.Text.Length < 1)
+                return false;
+
+            if(DescriptionTBLK.Text.Length < 1)
+                return false;
+
+            return true;
         }
     }
 }
