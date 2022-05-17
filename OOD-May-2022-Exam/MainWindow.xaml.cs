@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace OOD_May_2022_Exam
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Github link: https://github.com/Chopper1337/OOD-May-2022-Exam
     /// </summary>
     public partial class MainWindow : Window
     {
